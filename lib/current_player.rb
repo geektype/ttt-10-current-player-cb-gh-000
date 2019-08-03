@@ -4,6 +4,8 @@ def turn_count(board)
     if cell == "X" or cell == "O" do
       turn_counter +=1
     end
-  return turn_counter
   end
+  return turn_counter
+end
 board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+puts turn_count(board)
