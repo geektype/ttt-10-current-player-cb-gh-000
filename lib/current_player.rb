@@ -1,7 +1,7 @@
 def turn_count(board)
   turn_counter = 0
   for cell in board do
-    if cell == "X" or cell == "O" do
+    if cell == "X" or cell == "O"
       turn_counter +=1
     end
   end
