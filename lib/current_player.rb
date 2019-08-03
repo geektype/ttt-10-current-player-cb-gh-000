@@ -7,5 +7,13 @@ def turn_count(board)
   end
   return turn_counter
 end
+
+def current_player(board)
+  count = turn_count(board)
+  if count % 2 == 0 #even
+    return "X"
+  else 
+    return "O"
+  end
+end
 board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
-puts turn_count(board)
