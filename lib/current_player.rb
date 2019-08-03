@@ -7,5 +7,5 @@ def turn_count(board)
   end
   return turn_counter
 end
-board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+board = ["O", " ", " ", " ", "X", " ", "7", " ", "X"]
 puts turn_count(board)
