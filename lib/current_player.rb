@@ -16,5 +16,5 @@ def current_player(board)
     return "O"
   end
 end
-board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+board = ["O", "O", " ", " ", "X", " ", " ", " ", "X"]
 puts current_player(board)
